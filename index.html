@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D2 Eproleague</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="logo-eproleague.png" alt="">
+        <div>
+            <a href="https://eproleaguecp.com/home" class="button button-site">Visiter le site</a>
+            <a href="https://twitter.com/eProLeagueCP" class="button button-twitter">X</a>
+        </div>
+    </header>
+    <main class="mainTeam">
+        <div class="titreD2">
+            <h1>Récapitulatif Division 2</h1>
+            <div class="nemessis" id="divNemessis" onclick="toggleClasses()">
+                <img src="nms.png" alt="" srcset="">
+                <h2>NEMESSIS</h2>
+            </div>
+            <div class="joueurs hidden" id="divJoueurs">
+                <div class="gardiens">
+                    <h3>GARDIENS</h3>
+                    <div class="classement">
+                        <h3>Classement</h3>
+                        <p>1</p>
+                        <p>2</p>
+                    </div>
+                    <div class="gt">
+                        <h3>Gamer Tag</h3>
+                        <p>NMS GAANG</p>
+                        <p>NMS Kevin</p>
+                    </div>
+                    <div class="noteMoyenne">
+                        <h3>Note</h3>
+                        <p>0</p>
+                        <p>0</p>
+                    </div>
+                    <div class="nombreMatch">
+                        <h3>Nombre De Match</h3>
+                        <p>0</p>
+                        <p>0</p>
+                    </div>
+                    <div class="invincibilité">
+                        <h3>Invincibilité</h3>
+                        <p>0</p>
+                        <p>0</p>
+                    </div>
+                    <!-- Ajoutez d'autres divs au besoin -->
+                </div>
+                <div class="défenseurs hidden">
+                    <h3>DEFENSEURS</h3>
+                    <div class="classement">
+                        <h3>Classement</h3>
+                        <p>1</p>
+                        <p>2</p>
+                        <p>2</p>
+                        <p>2</p>
+                        <p>2</p>
+                    </div>
+                    <div class="gt">
+                        <h3>Gamer Tag</h3>
+                        <p>NMS GAANG</p>
+                        <p>NMS Kevin</p>
+                        <p>NMS Kevin</p>
+                        <p>NMS Kevin</p>
+                        <p>NMS Kevin</p>
+                    </div>
+                    <div class="noteMoyenne">
+                        <h3>Note</h3>
+                        <p>0</p>
+                        <p>0</p>
+                        <p>0</p>
+                        <p>0</p>
+                        <p>0</p>
+                    </div>
+                    <div class="nombreMatch">
+                        <h3>Nombre De Match</h3>
+                        <p>0</p>
+                        <p>0</p>
+                        <p>0</p>
+                        <p>0</p>
+                        <p>0</p>
+                    </div>
+                    <div class="invincibilité">
+                        <h3>Invincibilité</h3>
+                        <p>0</p>
+                        <p>0</p>
+                        <p>0</p>
+                        <p>0</p>
+                        <p>0</p>
+                    </div>
+                </div>
+                <div class="milieux hidden">
+                    <h3>MILIEUX DEFENSIFS</h3>
+                    <div class="classement">
+                        <h3>Classement</h3>
+                        <p>1</p>
+                        <p>2</p>
+                    </div>
+                    <div class="gt">
+                        <h3>Gamer Tag</h3>
+                        <p>NMS GAANG</p>
+                        <p>NMS Kevin</p>
+                    </div>
+                    <div class="noteMoyenne">
+                        <h3>Note</h3>
+                        <p>0</p>
+                        <p>0</p>
+                    </div>
+                    <div class="nombreMatch">
+                        <h3>Nombre De Match</h3>
+                        <p>0</p>
+                        <p>0</p>
+                    </div>
+                    <div class="invincibilité">
+                        <h3>Invincibilité</h3>
+                        <p>0</p>
+                        <p>0</p>
+                    </div>
+                </div>
+                <div class="MILIEUX hidden">
+                    <h3>MILIEUX</h3>
+                    <div class="classement">
+                        <h3>Classement</h3>
+                        <p>1</p>
+                        <p>2</p>
+                        <p>2</p>
+                        <p>2</p>
+                        <p>2</p>
+                        <p>2</p>
+                        <p>2</p>
+                        <p>2</p>
+                        <p>2</p>
+                    </div>
+                    <div class="gt">
+                        <h3>Gamer Tag</h3>
+                        <p>NMS GAANG</p>
+                        <p>NMS Kevin</p>
+                        <p>NMS Kevin</p>
+                        <p>NMS Kevin</p>
+                        <p>NMS Kevin</p>
+                        <p>NMS Kevin</p>
+                        <p>NMS Kevin</p>
+                        <p>NMS Kevin</p>
+                        <p>NMS Kevin</p>
+                    </div>
+                    <div class="noteMoyenne">
+                        <h3>Note</h3>
+                        <p>0</p>
+                        <p>0</p>
+                        <p>0</p>
+                        <p>0</p>
+                        <p>0</p>
+                        <p>0</p>
+                        <p>0</p>
+                        <p>0</p>
+                        <p>0</p>
+                    </div>
+                    <div class="nombreMatch">
+                        <h3>Nombre De Match</h3>
+                        <p>0</p>
+                        <p>0</p>
+                        <p>0</p>
+                        <p>0</p>
+                        <p>0</p>
+                        <p>0</p>
+                        <p>0</p>
+                        <p>0</p>
+                        <p>0</p>
+                    </div>
+                </div>
+                <div class="attaquants hidden">
+                    <h3>ATTAQUANTS</h3>
+                    <div class="classement">
+                        <h3>Classement</h3>
+                        <p>1</p>
+                        <p>2</p>
+                        <p>2</p>
+                    </div>
+                    <div class="gt">
+                        <h3>Gamer Tag</h3>
+                        <p>NMS GAANG</p>
+                        <p>NMS Kevin</p>
+                        <p>NMS Kevin</p>
+                    </div>
+                    <div class="noteMoyenne">
+                        <h3>Note</h3>
+                        <p>0</p>
+                        <p>0</p>
+                        <p>0</p>
+                    </div>
+                    <div class="nombreMatch">
+                        <h3>Nombre De Match</h3>
+                        <p>0</p>
+                        <p>0</p>
+                        <p>0</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
